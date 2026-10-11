@@ -1,0 +1,31 @@
+sku,product,category,stock,reorderPoint,unitCost,unitPrice,leadDays,units90
+SKU-001,Laptop Pro 14,Electronics,13,5,900,1150,18,11
+SKU-002,Wireless Earbuds,Electronics,158,34,52,89,10,180
+SKU-003,27-inch Monitor,Electronics,16,6,235,320,16,23
+SKU-004,HD Webcam,Electronics,0,47,38,64,20,154
+SKU-005,Tablet 10-inch,Electronics,14,5,320,420,13,16
+SKU-006,Ergonomic Chair,Office,15,8,150,260,18,28
+SKU-007,Standing Desk,Office,4,5,360,540,21,15
+SKU-008,Desk Lamp,Office,59,33,21,42,21,103
+SKU-009,Notebook 5-Pack,Office,4,9,8,18,8,50
+SKU-010,Label Printer,Office,21,8,85,130,9,40
+SKU-011,Wireless Mouse,Accessories,62,32,13,29,14,135
+SKU-012,Mechanical Keyboard,Accessories,36,8,55,98,7,50
+SKU-013,USB-C Hub,Accessories,63,32,27,54,16,125
+SKU-014,Laptop Sleeve,Accessories,0,26,15,36,9,141
+SKU-015,Phone Stand,Accessories,43,17,7,19,11,81
+SKU-016,Air Purifier,Home,49,16,120,180,9,90
+SKU-017,Smart Plug 4-Pack,Home,6,19,17,34,9,102
+SKU-018,Coffee Maker,Home,40,30,58,95,21,94
+SKU-019,LED Strip Lights,Home,8,19,11,27,8,112
+SKU-020,Storage Bins Set,Home,87,33,24,45,17,122
+SKU-021,Office Suite License,Software,29,14,60,149,10,69
+SKU-022,Antivirus 1-Year,Software,54,10,14,39,18,33
+SKU-023,Cloud Backup 1TB,Software,72,27,30,69,16,103
+SKU-024,Design Suite License,Software,0,9,95,210,9,50
+SKU-025,Password Manager 1-Year,Software,68,26,9,24,13,117
+SKU-026,Bluetooth Speaker,Audio,107,35,46,79,18,124
+SKU-027,Soundbar,Audio,3,6,140,210,15,23
+SKU-028,Studio Headphones,Audio,29,12,88,149,12,56
+SKU-029,USB Microphone,Audio,14,20,62,110,11,99
+SKU-030,Portable Charger,Audio,130,52,19,38,14,219

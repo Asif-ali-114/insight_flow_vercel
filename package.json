@@ -1,0 +1,15 @@
+{
+  "name": "insightflow-analytics-site",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Static data analytics services website with 12 interactive sample dashboards",
+  "scripts": {
+    "start": "python3 -m http.server 8080",
+    "build": "node tools/build-pages.js",
+    "data": "node tools/generate-data.js",
+    "test:unit": "node tests/unit.js",
+    "test:browser": "node tests/browser-dashboards.js && node tests/browser-cleaning.js && node tests/browser-site.js",
+    "test": "npm run test:unit && npm run test:browser"
+  },
+  "devDependencies": { "playwright": "^1.48.0" }
+}

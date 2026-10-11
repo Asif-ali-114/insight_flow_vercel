@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contact: Discuss Your Project | InsightFlow Analytics</title>
+<meta name="description" content="Contact us about data cleaning, dashboards, analysis or reporting automation. Tell us about your dataset and what you want to understand.">
+<link rel="canonical" href="https://www.example.com/contact.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="InsightFlow Analytics">
+<meta property="og:title" content="Contact: Discuss Your Project | InsightFlow Analytics">
+<meta property="og:description" content="Contact us about data cleaning, dashboards, analysis or reporting automation. Tell us about your dataset and what you want to understand.">
+<meta property="og:url" content="https://www.example.com/contact.html">
+<meta name="twitter:card" content="summary">
+<meta name="theme-color" content="#17324D">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Manrope:wght@700;800&family=JetBrains+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to main content</a>
+<div id="site-header"></div>
+<main id="main">
+<section class="page-hero"><div class="container"><span class="eyebrow">Contact</span><h1>Discuss your project</h1><p class="lead">Tell us what you want to understand. The more specific you are, the better we can say what the data can support.</p></div></section>
+<section class="section" style="padding-top:36px"><div class="container"><div class="grid" style="grid-template-columns:minmax(0,1.6fr) minmax(0,1fr);gap:28px" id="contact-grid">
+<div class="card" style="padding:26px"><h2 style="font-size:1.3rem">Project inquiry</h2>
+<div class="notice info" id="method-note" role="note" style="margin-bottom:16px"><p></p></div>
+<form id="inquiry" novalidate>
+<div class="form-grid">
+<div class="form-field" data-field="name"><label for="name">Full name <span class="req" aria-hidden="true">*</span><span class="sr-only">(required)</span></label><input type="text" id="name" name="name" autocomplete="name" aria-required="true" aria-describedby="name-err"><span class="err" id="name-err" role="alert"></span></div><div class="form-field" data-field="email"><label for="email">Business email <span class="req" aria-hidden="true">*</span><span class="sr-only">(required)</span></label><input type="email" id="email" name="email" autocomplete="email" aria-required="true" aria-describedby="email-err"><span class="err" id="email-err" role="alert"></span></div>
+<div class="form-field" data-field="company"><label for="company">Company or organization <span class="req" aria-hidden="true">*</span><span class="sr-only">(required)</span></label><input type="text" id="company" name="company" autocomplete="organization" aria-required="true" aria-describedby="company-err"><span class="err" id="company-err" role="alert"></span></div>
+<div class="form-field" data-field="industry"><label for="industry">Industry <span class="muted small">(optional)</span></label><select id="industry" name="industry" aria-describedby="industry-err"><option value="">Select…</option><option value="Retail">Retail</option><option value="E-commerce">E-commerce</option><option value="Education">Education</option><option value="Services">Services</option><option value="Manufacturing">Manufacturing</option><option value="Healthcare administration">Healthcare administration</option><option value="Non-profit">Non-profit</option><option value="Other">Other</option></select><span class="err" id="industry-err" role="alert"></span></div>
+<div class="form-field" data-field="service"><label for="service">Service required <span class="req" aria-hidden="true">*</span><span class="sr-only">(required)</span></label><select id="service" name="service" aria-required="true" aria-describedby="service-err"><option value="">Select…</option><option value="data-cleaning">Data Cleaning and Preparation</option><option value="sales">Sales and Revenue Analysis</option><option value="dashboards">Business Performance Dashboards</option><option value="customers">Customer and Marketing Analytics</option><option value="finance">Financial and Expense Analysis</option><option value="inventory">Inventory and Stock Analysis</option><option value="automation">Reporting Automation</option><option value="validation">Data Quality and Validation</option><option value="education">Education and Student Performance Analytics</option><option value="custom">Custom Data Analysis Projects</option></select><span class="err" id="service-err" role="alert"></span></div>
+<div class="form-field" data-field="datasetSize"><label for="datasetSize">Approximate dataset size <span class="muted small">(optional)</span></label><select id="datasetSize" name="datasetSize" aria-describedby="datasetSize-err"><option value="">Select…</option><option value="Under 1,000 rows">Under 1,000 rows</option><option value="1,000 – 50,000 rows">1,000 – 50,000 rows</option><option value="50,000 – 500,000 rows">50,000 – 500,000 rows</option><option value="More than 500,000 rows">More than 500,000 rows</option><option value="Not sure">Not sure</option></select><span class="err" id="datasetSize-err" role="alert"></span></div>
+<div class="form-field" data-field="deliverable"><label for="deliverable">Preferred deliverable <span class="muted small">(optional)</span></label><select id="deliverable" name="deliverable" aria-describedby="deliverable-err"><option value="">Select…</option><option value="Cleaned file">Cleaned file</option><option value="Written report (PDF or HTML)">Written report (PDF or HTML)</option><option value="Interactive dashboard">Interactive dashboard</option><option value="Automated report script">Automated report script</option><option value="Not sure yet">Not sure yet</option></select><span class="err" id="deliverable-err" role="alert"></span></div>
+<div class="form-field" data-field="timeframe"><label for="timeframe">Expected timeframe <span class="req" aria-hidden="true">*</span><span class="sr-only">(required)</span></label><select id="timeframe" name="timeframe" aria-required="true" aria-describedby="timeframe-err"><option value="">Select…</option><option value="As soon as possible">As soon as possible</option><option value="Within a month">Within a month</option><option value="Within three months">Within three months</option><option value="Flexible">Flexible</option></select><span class="err" id="timeframe-err" role="alert"></span></div>
+<div class="form-field" data-field="budget"><label for="budget">Budget range (USD) <span class="muted small">(optional)</span></label><select id="budget" name="budget" aria-describedby="budget-err"><option value="">Select…</option><option value="Under $100">Under $100</option><option value="$100 – $250">$100 – $250</option><option value="$250 – $1,000">$250 – $1,000</option><option value="Over $1,000">Over $1,000</option><option value="Prefer to discuss">Prefer to discuss</option></select><span class="err" id="budget-err" role="alert"></span></div>
+<div class="form-field full" data-field="description"><label for="description">Project description <span class="req" aria-hidden="true">*</span><span class="sr-only">(required)</span></label><textarea id="description" name="description" aria-required="true" aria-describedby="description-err description-hint" maxlength="4000"></textarea><span class="hint" id="description-hint">At least 20 characters. See the checklist for what helps.</span><span class="err" id="description-err" role="alert"></span></div>
+<div class="hp" aria-hidden="true"><label>Leave this field empty<input type="text" name="website" id="website" tabindex="-1" autocomplete="off"></label></div>
+</div>
+<p class="small muted" style="margin-top:14px">Please do not paste confidential data into this form. We will agree a secure way to share files after we speak.</p>
+<div class="btn-row" style="margin-top:8px"><button type="submit" class="btn btn-primary" id="submit-btn">Send inquiry</button></div>
+<div class="form-status" id="form-status" role="status" aria-live="polite" tabindex="-1"></div>
+</form></div>
+<div><div class="card"><h3>What to include</h3><ul class="muted small"><li>The decision or question the analysis should support.</li><li>What data you have: source, file type, rough size and period covered.</li><li>What the columns mean, and anything you already know is wrong.</li><li>The output you want: cleaned file, report or dashboard.</li><li>Who will read the results and when you need them.</li><li>Any confidentiality requirements.</li></ul></div>
+<div class="card" style="margin-top:16px"><h3>Direct email</h3><p class="small muted" style="margin:0">Prefer email? <a id="direct-email" href="mailto:hello@example.com">hello@example.com</a></p></div></div>
+</div></div></section>
+</main>
+<div id="site-footer"></div>
+<noscript><p style="padding:16px;text-align:center;background:#FFF7ED">The navigation, dashboards and demos on this site need JavaScript. Core pages are readable without it. <a href="index.html">Home</a> · <a href="contact.html">Contact</a></p></noscript>
+<script src="js/config.js"></script>
+<script src="js/utils.js"></script>
+<script src="js/layout.js"></script>
+<script src="js/contact.js"></script>
+</body>
+</html>
